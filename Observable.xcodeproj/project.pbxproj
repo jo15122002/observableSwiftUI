@@ -14,6 +14,7 @@
 		ED98DB262937A36100DDC2B5 /* ObservableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98DB252937A36100DDC2B5 /* ObservableTests.swift */; };
 		ED98DB302937A36100DDC2B5 /* ObservableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98DB2F2937A36100DDC2B5 /* ObservableUITests.swift */; };
 		ED98DB322937A36100DDC2B5 /* ObservableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98DB312937A36100DDC2B5 /* ObservableUITestsLaunchTests.swift */; };
+		ED98DB3F2937A75800DDC2B5 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED98DB3E2937A75800DDC2B5 /* Downloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		ED98DB2B2937A36100DDC2B5 /* ObservableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObservableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED98DB2F2937A36100DDC2B5 /* ObservableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableUITests.swift; sourceTree = "<group>"; };
 		ED98DB312937A36100DDC2B5 /* ObservableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED98DB3E2937A75800DDC2B5 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				ED98DB162937A35F00DDC2B5 /* ContentView.swift */,
 				ED98DB182937A36000DDC2B5 /* Assets.xcassets */,
 				ED98DB1A2937A36000DDC2B5 /* Preview Content */,
+				ED98DB3E2937A75800DDC2B5 /* Downloader.swift */,
 			);
 			path = Observable;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				ED98DB172937A35F00DDC2B5 /* ContentView.swift in Sources */,
 				ED98DB152937A35F00DDC2B5 /* ObservableApp.swift in Sources */,
+				ED98DB3F2937A75800DDC2B5 /* Downloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
